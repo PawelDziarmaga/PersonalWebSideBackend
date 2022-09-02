@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notes",
+  "info": {
+    "singularName": "note",
+    "pluralName": "notes",
+    "displayName": "Note",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "x": {
+      "type": "integer"
+    },
+    "y": {
+      "type": "integer"
+    },
+    "rotate": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "author",
+      "required": true
+    }
+  }
+}

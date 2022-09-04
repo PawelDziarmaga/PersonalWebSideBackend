@@ -47,7 +47,7 @@
     "informationOThree": {
       "type": "string"
     },
-    "stack1Back": {
+    "stackBack1": {
       "type": "string"
     },
     "stackBack2": {
@@ -75,6 +75,36 @@
       "type": "string"
     },
     "stackBack5": {
+      "type": "string"
+    },
+    "stackBack6": {
+      "type": "string"
+    },
+    "stackBack7": {
+      "type": "string"
+    },
+    "stackBack8": {
+      "type": "string"
+    },
+    "stackFront6": {
+      "type": "string"
+    },
+    "stackFront7": {
+      "type": "string"
+    },
+    "stackFront8": {
+      "type": "string"
+    },
+    "stackFront9": {
+      "type": "string"
+    },
+    "stackFront10": {
+      "type": "string"
+    },
+    "stackBack9": {
+      "type": "string"
+    },
+    "stackBack10": {
       "type": "string"
     }
   }

@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "gitFrontend": {
+      "type": "string"
+    },
+    "gitBackend": {
+      "type": "string"
+    },
+    "webFrontend": {
+      "type": "string"
+    },
+    "webBackend": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "informationOne": {
+      "type": "text"
+    },
+    "informationTwo": {
+      "type": "text"
+    },
+    "informationOThree": {
+      "type": "string"
+    },
+    "stack1Back": {
+      "type": "string"
+    },
+    "stackBack2": {
+      "type": "string"
+    },
+    "stackBack3": {
+      "type": "string"
+    },
+    "stackBack4": {
+      "type": "string"
+    },
+    "stackFront1": {
+      "type": "string"
+    },
+    "stackFront2": {
+      "type": "string"
+    },
+    "stackFront3": {
+      "type": "string"
+    },
+    "stackFront4": {
+      "type": "string"
+    },
+    "stackFront5": {
+      "type": "string"
+    },
+    "stackBack5": {
+      "type": "string"
+    }
+  }
+}

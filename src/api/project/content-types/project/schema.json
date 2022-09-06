@@ -16,14 +16,15 @@
       "type": "string"
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "urlGitFront": {
       "type": "string"
@@ -81,6 +82,15 @@
     },
     "stripe": {
       "type": "boolean"
+    },
+    "tekst1": {
+      "type": "text"
+    },
+    "tekst2": {
+      "type": "text"
+    },
+    "tekst3": {
+      "type": "text"
     }
   }
 }

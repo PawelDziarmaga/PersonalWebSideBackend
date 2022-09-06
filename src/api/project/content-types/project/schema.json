@@ -15,97 +15,72 @@
     "title": {
       "type": "string"
     },
-    "gitFrontend": {
-      "type": "string"
-    },
-    "gitBackend": {
-      "type": "string"
-    },
-    "webFrontend": {
-      "type": "string"
-    },
-    "webBackend": {
-      "type": "string"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
+    "img": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
-    "informationOne": {
-      "type": "text"
-    },
-    "informationTwo": {
-      "type": "text"
-    },
-    "informationOThree": {
+    "urlGitFront": {
       "type": "string"
     },
-    "stackBack1": {
+    "urlGitBack": {
       "type": "string"
     },
-    "stackBack2": {
+    "urlWebFront": {
       "type": "string"
     },
-    "stackBack3": {
+    "urlWebBack": {
       "type": "string"
     },
-    "stackBack4": {
-      "type": "string"
+    "Frontend": {
+      "type": "boolean"
     },
-    "stackFront1": {
-      "type": "string"
+    "Backend": {
+      "type": "boolean"
     },
-    "stackFront2": {
-      "type": "string"
+    "typescript": {
+      "type": "boolean"
     },
-    "stackFront3": {
-      "type": "string"
+    "react": {
+      "type": "boolean"
     },
-    "stackFront4": {
-      "type": "string"
+    "styledComponents": {
+      "type": "boolean"
     },
-    "stackFront5": {
-      "type": "string"
+    "redux": {
+      "type": "boolean"
     },
-    "stackBack5": {
-      "type": "string"
+    "localStorage": {
+      "type": "boolean"
     },
-    "stackBack6": {
-      "type": "string"
+    "framerMotion": {
+      "type": "boolean"
     },
-    "stackBack7": {
-      "type": "string"
+    "reactHotToast": {
+      "type": "boolean"
     },
-    "stackBack8": {
-      "type": "string"
+    "node": {
+      "type": "boolean"
     },
-    "stackFront6": {
-      "type": "string"
+    "strapi": {
+      "type": "boolean"
     },
-    "stackFront7": {
-      "type": "string"
+    "cloudinary": {
+      "type": "boolean"
     },
-    "stackFront8": {
-      "type": "string"
+    "graphql": {
+      "type": "boolean"
     },
-    "stackFront9": {
-      "type": "string"
+    "auth0": {
+      "type": "boolean"
     },
-    "stackFront10": {
-      "type": "string"
-    },
-    "stackBack9": {
-      "type": "string"
-    },
-    "stackBack10": {
-      "type": "string"
+    "stripe": {
+      "type": "boolean"
     }
   }
 }

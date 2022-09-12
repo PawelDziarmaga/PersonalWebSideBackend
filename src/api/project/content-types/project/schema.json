@@ -93,7 +93,7 @@
       "type": "text"
     },
     "emailJS": {
-      "type": "string"
+      "type": "boolean"
     }
   }
 }

@@ -14,7 +14,7 @@ https://powerful-plateau-40535.herokuapp.com/
 
 ## General info
 
-A website where you can find more information about the creator, find more information about the projects and give a note.
+A website where you can find more information about the athor, find more information about the projects and give a note.
 
 Functions:
 
@@ -33,7 +33,7 @@ Project is created with:
 
 ## Frontend
 
-...
+https://powerful-thicket-69732.herokuapp.com/
 
 ## Setup
 

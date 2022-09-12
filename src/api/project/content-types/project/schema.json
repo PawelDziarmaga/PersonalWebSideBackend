@@ -91,6 +91,9 @@
     },
     "tekst3": {
       "type": "text"
+    },
+    "emailJS": {
+      "type": "string"
     }
   }
 }
